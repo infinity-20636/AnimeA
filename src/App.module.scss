@@ -1,0 +1,14 @@
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 153px auto ;
+
+}
+@media(max-width: 800px){
+    .main{
+        grid-template-columns: 103px auto ;
+   }
+}
+
+

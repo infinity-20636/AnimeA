@@ -1,0 +1,213 @@
+@media (max-width: 1250px) {
+    .wrapper__anime{
+        border-radius: 0 0 30px 13px ;
+    }
+    .anime{
+        &__item{
+      
+            height: 210px;
+            column-gap: 15px;
+            &-img{
+                border-radius: 18px;
+                width: 120px;
+                height:170px;
+            }
+            &-text{
+                font-size: 15px;
+                row-gap: 3px;
+            
+                margin-top: 8px;
+                
+            }
+            &-text .title__text{
+                margin-bottom: 8px;
+               
+            }
+
+        }
+        
+    }
+    .wrapper__control{
+        max-width: 1000px;
+        height: 180px;
+    
+        &-text{
+         font-size: 20px;
+     
+        }
+        &-btn{
+         width: 100px;
+         height: 30px;
+         border-radius: 10px;
+         font-size: 20px;
+
+        }
+       
+     }
+     .loading{
+
+         margin-top: 40px;
+         font-size: 50px;
+     }
+     
+}
+
+@media (max-width: 1080px) {
+    .wrapper__anime{
+        border-radius: 0 0 25px 10px ;
+    }
+    .anime{
+        &__item{
+           
+            height: 180px;
+            column-gap: 12px;
+            &-img{
+                border-radius: 15px;
+                width: 100px;
+                height:150px;
+            }
+            &-text{
+                font-size: 12px;
+                row-gap: 3px;
+            
+                margin-top: 5px;
+                
+            }
+            &-text .title__text{
+                margin-bottom: 5px;
+               
+            }
+
+        }
+        
+    }
+    .wrapper__control{
+        max-width: 800px;
+        height: 120px;
+    
+        &-text{
+         font-size: 18px;
+     
+        }
+        &-btn{
+         width: 100px;
+         height: 30px;
+         border-radius: 10px;
+         font-size: 20px;
+
+        }
+       
+     }
+     .loading{
+
+         margin-top: 40px;
+         font-size: 50px;
+     }
+     
+}
+@media (max-width: 940px){
+    .wrapper__anime{
+        border-radius: 0 0 25px 10px ;
+    }
+    .anime{
+        grid-template-columns: 1fr ;
+        &__item{
+          
+            height: 180px;
+            column-gap: 12px;
+            &-img{
+                border-radius: 15px;
+                width: 100px;
+                height:150px;
+            }
+            &-text{
+                font-size: 12px;
+                row-gap: 3px;
+            
+                margin-top: 5px;
+                
+            }
+            &-text .title__text{
+                margin-bottom: 5px;
+               
+            }
+
+        }
+        
+    }
+    .wrapper__control{
+        max-width: 800px;
+        height: 120px;
+    
+        &-text{
+         font-size: 18px;
+     
+        }
+        &-btn{
+         width: 100px;
+         height: 30px;
+         border-radius: 10px;
+         font-size: 20px;
+
+        }
+       
+     }
+     .loading{
+
+         margin-top: 40px;
+         font-size: 50px;
+     }
+}
+@media (max-width: 500px){
+    .wrapper__anime{
+        border-radius: 0 0 25px 10px ;
+    }
+    .anime{
+        grid-template-columns: 1fr ;
+        &__item{
+          
+            height: 110px;
+            column-gap: 12px;
+            &-img{
+                border-radius: 15px;
+                width: 70px;
+                height:100px;
+            }
+            &-text{
+                font-size: 10px;
+                row-gap: 3px;
+            
+                margin-top: 5px;
+                
+            }
+            &-text .title__text{
+                margin-bottom: 5px;
+               
+            }
+
+        }
+        
+    }
+    .wrapper__control{
+        max-width: 800px;
+        height: 120px;
+    
+        &-text{
+         font-size: 13px;
+     
+        }
+        &-btn{
+         width: 100px;
+         height: 30px;
+         border-radius: 10px;
+         font-size: 20px;
+
+        }
+       
+     }
+     .loading{
+
+         margin-top: 40px;
+         font-size: 50px;
+     }
+}

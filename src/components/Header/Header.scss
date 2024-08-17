@@ -1,0 +1,119 @@
+.container{
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0 auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 1;
+}
+.header{
+    
+    background: radial-gradient(99.26% 58.11% at 50.03% -31.11%, rgb(17, 5, 44) 0%, rgb(17, 5, 44) 2.083333395421505%, rgb(17, 5, 44) 84.375%);
+    border-radius: 38px 38px 0 0;
+    padding: 18px 20px;
+    max-width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    &__wrapper{
+        display: flex;
+        border-radius: 25px;
+        margin-left: 160px;
+width: 315px;
+height: 56px;
+background-color: rgba(38, 27, 62);
+&-search{
+    border-radius: 0 25px 25px 0;
+    padding-left: 20px;
+   
+height: 56px;
+font-weight: 500;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.2);
+background-color: rgb(38, 27, 62);
+}
+&-glass{
+    border-radius:25px 0 0 25px;
+    margin-left: 20px;
+    background-color: rgb(38, 27, 62);
+    margin-top: 20px;
+    width: 21px;
+    height: 19px;
+    background-image: url('../../assets/image/search.svg');
+    background-size: cover;
+}
+
+    }
+
+&__nav{
+    display: flex;
+    column-gap: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    &-notification{
+        border-radius: 18px;
+width: 50px;
+height: 50px;
+background-color: rgba($color: #000000, $alpha: 0);
+padding-top: 2px;
+padding-left: 2px;
+cursor: pointer;
+transition: 0.5s;
+}
+    
+    &-cart{
+        text-align: center;
+        border-radius: 18px 18px 18px 18px;
+width: 50px;
+height: 50px;
+background-color: rgba($color: #000000, $alpha: 0);
+padding-top: 2px;
+cursor: pointer;
+transition: 0.5s;
+    }
+    &-account{
+        border-radius: 100%;
+        width: 57px;
+        height: 57px;
+        cursor: pointer;
+    
+    }
+    &-account > img{
+        border-radius: 100%;
+        width: 57px;
+        height: 57px;
+    }
+}
+
+
+
+.active{
+    background-color: #f43b86;
+}
+}
+
+.paymentRow {
+    display: flex;
+}
+
+
+
+.header__nav-notification:hover{
+    background-color: #5028a5;
+}
+.header__nav-cart:hover{
+    background-color: #5028a5;
+}
+
+.notification{
+    margin: 8px 12px;
+    background-color: rgba($color: #000000, $alpha: 0);
+}
+.cart{
+    margin: 8px 10px;
+    background-color: rgba($color: #000000, $alpha: 0);
+}

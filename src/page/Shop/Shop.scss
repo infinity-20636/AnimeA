@@ -1,0 +1,59 @@
+.wrapper__shops{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+    max-width: 1200px;
+    height: 3000px;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    background: radial-gradient(99.26% 58.11% at 50.03% -31.11%, rgb(17, 5, 44) 0%, rgb(17, 5, 44) 2.083333395421505%, rgb(17, 5, 44) 84.375%);
+}
+
+.card{
+  border-radius: 35px;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  &__img{
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 150px;
+  }
+  &__btn{
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(222, 222, 222, 0.1);
+    border-radius: 20px ;
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    &-plus{
+      cursor: pointer;
+      border-radius: 17px;
+      width: 90px;
+      height: 42px;
+      border: 1px solid rgba(222, 222, 222, 0.1);
+    }
+    &-minus{
+      cursor: pointer;
+      border-radius: 17px;
+      width: 90px;
+      height: 42px;
+      border: 1px solid rgba(222, 222, 222, 0.1);
+    }
+    &-plus:hover{
+      background-color: #5028a5;
+    }
+    &-minus:hover{
+      background-color: #f43b86;
+
+    }
+  }
+}

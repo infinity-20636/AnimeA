@@ -1,0 +1,135 @@
+@media(max-width:1200px){
+    .wrapper__footer{
+        margin-top: 18px;
+
+        max-width: 799px;
+        height:220px;
+  
+        border-radius: 18px;
+   
+        padding: 5px;
+        column-gap: 15px;
+    }
+    
+    
+    .aboutMe{
+        display: flex;
+        width: 270px;
+        height: 100px;
+        
+    
+        &__text{
+            
+            padding: 4px 8px 0px 8px;
+
+            row-gap: 13px;
+
+            margin-left: 18px;
+            border-radius: 16px;
+            margin-top: 16px;
+            width: 140px;
+            height: 180px;
+            &-link{
+                text-align: start;
+                font-size: 10px;
+
+            }
+            
+        }
+        &__text p{
+            font-size: 12px;
+            margin-bottom: px;
+        }
+    }
+    
+}
+@media(max-width:1000px){
+    .wrapper__footer{
+        margin-top: 13px;
+
+        max-width: 599px;
+        height:220px;
+  
+        border-radius: 15px;
+   
+        padding: 4px;
+        column-gap: 12px;
+    }
+    
+    
+    .aboutMe{
+        display: flex;
+        width: 230px;
+        height: 80px;
+        
+    
+        &__text{
+            
+            padding: 3px 7px 0px 7px;
+
+            row-gap: 10px;
+
+            margin-left: 15px;
+            border-radius: 11px;
+            margin-top: 11px;
+            width: 100px;
+            height: 180px;
+            &-link{
+                text-align: start;
+                font-size: 9px;
+
+            }
+            
+        }
+        &__text p{
+            margin-bottom: px;
+        }
+    }
+    
+}
+@media(max-width:750px){
+    .wrapper__footer{
+        margin-top: 13px;
+
+        width: 380px;
+        height:220px;
+  
+        border-radius: 15px;
+   
+        padding: 4px;
+        column-gap: 12px;
+    }
+    
+    
+    .aboutMe{
+        display: grid;
+        width: 230px;
+        height: 80px;
+        grid-template-columns: 1fr;
+    &__img{
+        display: none;
+    }
+        &__text{
+            
+            padding: 3px 7px 0px 7px;
+
+            row-gap: 10px;
+
+            margin-left: 15px;
+            border-radius: 11px;
+            margin-top: 11px;
+            width: 100px;
+            height: 180px;
+            &-link{
+                text-align: start;
+                font-size: 9px;
+
+            }
+            
+        }
+        &__text p{
+            margin-bottom: px;
+        }
+    }
+    
+}

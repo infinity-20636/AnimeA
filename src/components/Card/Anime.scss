@@ -1,0 +1,82 @@
+.wrapper__anime{
+    border-radius: 0 0 35px 15px;
+    
+    background: radial-gradient(99.26% 58.11% at 50.03% -31.11%, rgb(17, 5, 44) 0%, rgb(17, 5, 44) 2.0833333954%, rgb(17, 5, 44) 84.375%);
+}
+
+
+.anime{
+    background: radial-gradient(99.26% 58.11% at 50.03% -31.11%, rgb(17, 5, 44) 0%, rgb(17, 5, 44) 2.0833333954%, rgb(17, 5, 44) 84.375%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 100%;
+    
+    padding: 10px 20px;
+    &__item{
+        cursor: pointer;
+    transition: .4s;
+        padding: 3px;
+        display: flex;
+        background-color: rgb(38, 27, 62);
+        border-radius: 20px;
+    
+        height: 220px;
+        column-gap: 20px;
+        &-img{
+            border-radius: 20px;
+            width: 150px;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-text{
+            font-size: 18px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 4px;
+            text-align: start;
+            margin-top: 10px;
+            background-color: rgba($color: #000000, $alpha: 0);
+        }
+        &-text .title__text{
+            margin-bottom: 10px;
+            background-color: rgba($color: #000000, $alpha: 0);
+        }
+        &-text .text{
+            background-color: rgba($color: #000000, $alpha: 0);
+        }
+        
+    }
+    &__item:hover{
+        background-color: #5028a5;
+       }
+}
+.wrapper__control{
+    text-align: center;
+   max-width: 1200px;
+   height: 200px;
+   background-color: rgba($color: #000000, $alpha: 0);
+   &-text{
+    font-size: 30px;
+    background-color: rgba($color: #000000, $alpha: 0);
+
+   }
+   &-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+   }
+   &-btn:hover{
+    background-color: #5028a5;
+   }
+}
+.loading{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    font-size: 50px;
+}

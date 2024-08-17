@@ -1,0 +1,195 @@
+@media (max-width: 700px){
+     
+    .header{
+      
+        border-radius: 26px 26px 0 0;
+        padding: 4px 10px;
+        max-width: 1200px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+        &__wrapper{
+            display: flex;
+            border-radius: 15px;
+            margin-left: 160px;
+    
+    height: 50px;
+    background-color: rgba(38, 27, 62);
+    &-search{
+        border-radius: 0 20px 20px 0;
+        padding-left: 15px;
+       
+    height: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(38, 27, 62);
+    }
+    &-glass{
+        border-radius:25px 0 0 25px;
+        margin-left: 10px;
+        background-color: rgb(38, 27, 62);
+        margin-top: 10px;
+        height: 19px;
+        background-image: url('../../assets/image/search.svg');
+        background-size: cover;
+    }
+    
+        }
+    
+    &__nav{
+        display: flex;
+        column-gap: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        &-notification{
+            border-radius: 14px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    padding-top: 2px;
+    padding-left: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    }
+        
+        &-cart{
+            text-align: center;
+            border-radius: 18px 18px 18px 18px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    padding-top: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+        }
+        &-account{
+            border-radius: 100%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        
+        }
+        &-account > img{
+            border-radius: 100%;
+            width: 57px;
+            height: 57px;
+        }
+    }
+}
+    
+    
+ 
+    
+    
+    
+}
+@media (max-width: 600px){
+     
+    .header{
+      
+        border-radius: 17px 17px 0 0;
+        padding: 3px 7px;
+        max-width: 1200px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 7px;
+        &__wrapper{
+            display: flex;
+            border-radius: 7px;
+            margin-left: 110px;
+    height: 40px;
+    background-color: rgba(38, 27, 62);
+    &-search{
+        border-radius: 14px 14px 14px 14px;
+        padding-left: 8px;
+       
+    height: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(38, 27, 62);
+    }
+    &-glass{
+        display: none;
+        border-radius:25px 0 0 25px;
+        margin-left: 20px;
+        background-color: rgb(38, 27, 62);
+        margin-top: 20px;
+        height: 19px;
+        background-image: url('../../assets/image/search.svg');
+        background-size: cover;
+    }
+    
+        }
+    
+    &__nav{
+        display: flex;
+        column-gap: 20px;
+        background-color: rgba(255, 255, 255, 0);
+        &-notification{
+            border-radius: 18px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    padding-top: 2px;
+    padding-left: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    }
+        
+        &-cart{
+            text-align: center;
+            border-radius: 18px 18px 18px 18px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    padding-top: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+        }
+        &-account{
+            border-radius: 100%;
+            width: 57px;
+            height: 57px;
+            cursor: pointer;
+        
+        }
+        &-account > img{
+            border-radius: 100%;
+            width: 57px;
+            height: 57px;
+        }
+    }
+    
+    
+    
+    .active{
+        background-color: #f43b86;
+    }
+    }
+    
+    .paymentRow {
+        display: flex;
+    }
+    
+    
+    
+    .header__nav-notification:hover{
+        background-color: #5028a5;
+    }
+    .header__nav-cart:hover{
+        background-color: #5028a5;
+    }
+    
+    .notification{
+        margin: 8px 12px;
+        background-color: rgba($color: #000000, $alpha: 0);
+    }
+    .cart{
+        margin: 8px 10px;
+        background-color: rgba($color: #000000, $alpha: 0);
+    }
+    
+}

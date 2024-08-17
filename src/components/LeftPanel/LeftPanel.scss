@@ -1,0 +1,78 @@
+.container__left{
+    position: fixed;
+    width: auto;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 3;
+}
+
+
+
+.wrapper{
+   
+    display: flex;
+    flex-direction: column;
+    width: 153px;
+    height: 98.4vh;
+    background: #11052c;
+    border-radius: 38px 0 0 38px;
+    padding: 23px 30px;
+    &__left-logo{
+        width: 109px;
+        height: 30px;
+        background: rgba($color: #000000, $alpha: 0);
+        background-image: url("../../assets/image/logoAnime-removebg-preview.png");
+        background-size: contain;
+    }
+    &__nav{
+        row-gap: 13px;
+        display: flex;
+        flex-direction: column;
+        background: rgba($color: #000000, $alpha: 0);
+        padding: 100px 4px;
+        &-left{
+            align-content: center;
+            text-align: center;
+            transition: 0.5s;
+            border-radius: 18px;
+width: 57px;
+height: 57px;
+            background-image: url();
+            background: rgba($color: #000000, $alpha: 0);
+        }
+    }
+}
+.wrapper__nav-left:hover{
+    
+    background-color: #5028a5;
+}
+.home{
+    background-color: rgba($color: #000000, $alpha: 0);
+}
+.shop{
+    background-color: rgba($color: #000000, $alpha: 0);
+}
+.forum{
+    background-color: rgba($color: #000000, $alpha: 0);
+}
+.users{
+    background-color: rgba($color: #000000, $alpha: 0);
+}
+
+
+.search{
+    background-color: rgba($color: #000000, $alpha: 0);
+}
+.calendar{
+    background-color: rgba($color: #000000, $alpha: 0);
+}
+.animeList{
+    background-color: rgba($color: #000000, $alpha: 0);
+}
+.active{
+    background-color: #f43b86;
+}
+.active:hover{
+    background-color: #f43b86;
+}

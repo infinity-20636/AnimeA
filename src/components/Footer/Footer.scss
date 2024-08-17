@@ -1,0 +1,46 @@
+.wrapper__footer{
+    margin-top: 20px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    max-width: 944px;
+    height: 240px;
+    border: 1px solid rgba(222, 222, 222, 0.1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between ;
+    padding: 5px;
+    column-gap: 20px;
+}
+
+
+.aboutMe{
+    display: flex;
+    width: 300px;
+    height: 120px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    &__img{
+        background-color: rgba($color: #000000, $alpha: 0);
+    }
+    &__text{
+        
+        padding: 5px 10px 0px 10px;
+        display: flex;
+        row-gap: 15px;
+        flex-direction: column;
+        margin-left: 10px;
+        border-radius: 20px;
+        margin-top: 20px;
+        width: 180px;
+        height: 200px;
+        &-link{
+            text-align: start;
+            font-size: 14px;
+            background-color: rgba($color: #000000, $alpha: 0);
+        }
+        
+    }
+    &__text p{
+        margin-bottom: px;
+    }
+}
+
+

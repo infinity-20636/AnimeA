@@ -1,0 +1,122 @@
+.section{
+  width: 100%;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+      grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 2;
+    z-index: 0;
+    grid-row-start: 2;
+    height: 98.4vh;
+    border-radius: 0 0 35px 0;
+    background: radial-gradient(99.26% 58.11% at 50.03% -31.11%, rgb(17, 5, 44) 0%, rgb(17, 5, 44) 2.083333395421505%, rgb(17, 5, 44) 84.375%);
+  }
+  .preview{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 41px;
+  width: 944px;
+  height: 387px;
+  box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(112.5% 126.89% at 50% -26.87%, rgb(42, 32, 63) 0%, rgb(22, 13, 43) 100%);
+  &__name{
+    padding: 0px 50px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    &-top{
+      display: flex;
+      background-color: rgba($color: #000000, $alpha: 0); 
+    }
+    &-top .img__akerman-mini{
+      background-color: rgba($color: #000000, $alpha: 0);
+    }
+    &-top > .preview__name-text{
+      font-weight: 700;
+      color: #f43b86;
+    }
+
+
+
+
+    &-text{
+      text-align: start;
+      font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+      margin-top: 43px;
+      margin-bottom: 30px;
+      background-color: rgba($color: #000000, $alpha: 0);
+    }
+    &-btn{
+      padding: 2px;
+      display: flex;
+      column-gap: 4px;
+      justify-content: space-between;
+      background-color: rgba($color: #000000, $alpha: 0);
+      border: 1px solid rgba(222, 222, 222, 0.1);
+  border-radius: 21px;
+  width: 241px;
+  height: 63px;
+  background: rgba(35, 28, 51, 0.5);
+  
+    }
+    &-btn > p{
+      background-color: rgba($color: #000000, $alpha: 0);
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    &-btn > button{
+      border: 1px solid rgba(222, 222, 222, 0.1);
+  border-radius: 19px;
+  width: 114px;
+  height: 57px;
+  transition: 0.5s;   
+  cursor: pointer;
+  
+    }
+    &-btn > button:hover{
+      background-color: #5028a5;
+    }
+  
+  }
+  
+  &__img{position: relative;
+    background-color: rgba($color: #000000, $alpha: 0);
+    &-Titan{
+      bottom: -10px;
+      right: -70px;
+      position: absolute;
+      background-color: rgba($color: #000000, $alpha: 0);
+      width: 540px;
+  height: 450px;
+  z-index: 1;
+    }
+
+    &-light{
+      
+      width: 340px;
+      z-index: 3;
+      top: 70px;
+      left: -70px;
+      position: absolute;
+      background-color: rgba($color: #000000, $alpha: 0);
+    }
+    &-fire{
+      width: 250px;
+      z-index: 6;
+      top: 90px;
+      left: -20px;
+      position: absolute;
+      background-color: rgba($color: #000000, $alpha: 0);
+    }
+    &-effect{
+      rotate: -3deg;
+      z-index: 5;
+      top: 39px;
+      left: 6px;
+      position: absolute;
+      background-color: rgba($color: #000000, $alpha: 0);
+    }
+  }
+  }
